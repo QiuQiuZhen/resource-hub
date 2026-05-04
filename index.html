@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="资源整合导航站，收录 AI 工具合集、电脑工具集和高效工作流资源。"
+    />
+    <title>秋秋帧 - AI 工具与电脑必装资源库</title>
+    <link id="faviconLink" rel="icon" href="data:," />
+    <link rel="preconnect" href="https://www.google.com" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <div class="brand-mark" id="brandMark">秋</div>
+        <div>
+          <p class="eyebrow" id="siteSubtitle">Resource Hub</p>
+          <h1 id="siteName">秋秋帧</h1>
+        </div>
+      </div>
+
+      <nav class="top-nav" aria-label="主导航">
+        <a href="#library">资源库</a>
+        <a href="https://0002.xin" target="_blank" rel="noopener noreferrer">博客</a>
+        <a href="./admin.php">后台</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="workspace" id="library">
+        <button class="mobile-filter-toggle" type="button" id="filterToggle" aria-expanded="false">
+          筛选资源
+          <span aria-hidden="true">＋</span>
+        </button>
+        <aside class="filter-panel" aria-label="筛选工具">
+          <div class="panel-section">
+            <p class="section-label">搜索</p>
+            <label class="search-field" for="searchInput">
+              <span class="search-icon" aria-hidden="true">⌕</span>
+              <input
+                id="searchInput"
+                type="search"
+                placeholder="搜索 ChatGPT、截图、PDF..."
+                autocomplete="off"
+              />
+            </label>
+          </div>
+
+          <div class="panel-section">
+            <p class="section-label">资源类型</p>
+            <div class="segmented" role="tablist" aria-label="资源类型">
+              <button class="segment active" type="button" data-type="all">全部</button>
+              <button class="segment" type="button" data-type="ai">AI 工具</button>
+              <button class="segment" type="button" data-type="computer">电脑工具</button>
+            </div>
+          </div>
+
+          <div class="panel-section">
+            <p class="section-label">分类</p>
+            <div class="chip-list" id="categoryFilters"></div>
+          </div>
+
+          <div class="panel-section">
+            <p class="section-label">偏好</p>
+            <div class="preference-list" id="preferenceFilters"></div>
+          </div>
+
+          <div class="panel-section compact">
+            <p class="section-label">统计</p>
+            <div class="stats-grid">
+              <div>
+                <strong id="totalCount">0</strong>
+                <span>工具</span>
+              </div>
+              <div>
+                <strong id="categoryCount">0</strong>
+                <span>分类</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <section class="content-area">
+          <div class="hero-carousel" id="heroCarousel" aria-label="首页轮播图">
+            <div class="hero-slide">
+              <p class="eyebrow">资源导航页</p>
+              <h2>AI 工具合集 + 电脑必装工具集</h2>
+              <p>把常用工具按场景整理好，搜索、筛选、直达官网。</p>
+            </div>
+          </div>
+
+          <div class="toolbar">
+            <div>
+              <p class="section-label">当前结果</p>
+              <h3><span id="resultCount">0</span> 个资源</h3>
+            </div>
+            <div class="sort-control">
+              <label for="sortSelect">排序</label>
+              <select id="sortSelect">
+                <option value="featured">推荐优先</option>
+                <option value="name">名称 A-Z</option>
+                <option value="category">分类</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="collection-strip" id="groupStrip" aria-label="资源分组"></div>
+
+          <div class="resource-grid" id="resourceGrid"></div>
+          <div class="empty-state" id="emptyState" hidden>
+            <h3>暂时没有匹配的资源</h3>
+            <p>换个关键词，或者取消部分筛选条件试试。</p>
+          </div>
+        </section>
+      </section>
+
+
+    </main>
+
+    <footer class="site-footer">
+      <span id="footerText">© 2026 秋秋帧 Resource Hub</span>
+      <a id="icpLink" href="#" target="_blank" rel="noopener noreferrer" hidden></a>
+      <span id="footerNote">常記溪亭日暮 沉醉不知歸路</span>
+    </footer>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

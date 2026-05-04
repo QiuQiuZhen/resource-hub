@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>后台登录 - 集盒</title>
+    <link rel="stylesheet" href="./admin.css" />
+  </head>
+  <body class="login-page">
+    <header class="admin-header">
+      <div class="brand">
+        <div class="brand-mark">集</div>
+        <div>
+          <p>Admin Console</p>
+          <h1>资源管理后台</h1>
+        </div>
+      </div>
+      <nav>
+        <a href="./index.php">前台首页</a>
+        <a href="./README.md">使用说明</a>
+      </nav>
+    </header>
+
+    <main class="login-view">
+      <form class="login-card" id="loginForm">
+        <p>后台登录</p>
+        <h2>账号密码登录</h2>
+        <label>
+          <span>账号</span>
+          <input name="username" type="text" autocomplete="username" required />
+        </label>
+        <label>
+          <span>密码</span>
+          <input name="password" type="password" autocomplete="current-password" required />
+        </label>
+        <label>
+          <span>验证码</span>
+          <div class="captcha-row">
+            <input name="captcha" type="text" maxlength="6" autocomplete="off" required />
+            <button class="captcha-button" type="button" id="refreshCaptcha" aria-label="刷新验证码">
+              <img id="captchaImage" src="./api/captcha.php" alt="验证码" />
+            </button>
+          </div>
+        </label>
+        <button class="primary-button" type="submit">登录后台</button>
+        <div class="status-pill" id="loginStatus">账号密码在 config.php 中修改</div>
+      </form>
+    </main>
+
+    <script src="./login.js"></script>
+  </body>
+</html>

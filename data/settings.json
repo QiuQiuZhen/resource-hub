@@ -1,0 +1,72 @@
+{
+    "siteName": "秋秋工具站",
+    "siteSubtitle": "Resource Hub",
+    "logoText": "秋",
+    "logoUrl": "http://47.108.150.116/uploads/icons/5.png",
+    "faviconUrl": "http://47.108.150.116/uploads/icons/6.ico",
+    "footerText": "© 2026 秋秋帧 Resource Hub",
+    "icpText": "蜀ICP备121234",
+    "icpUrl": "https://beian.miit.gov.cn/#/Integrated/index",
+    "resourceTypes": [
+        {
+            "id": "ai",
+            "label": "AI 工具"
+        },
+        {
+            "id": "computer",
+            "label": "电脑工具"
+        }
+    ],
+    "groupsEnabled": true,
+    "groups": [
+        {
+            "id": "starter",
+            "title": "旧手入门",
+            "description": "刚关注先看这组"
+        },
+        {
+            "id": "creator",
+            "title": "内容创作",
+            "description": "写作、图片、视频"
+        },
+        {
+            "id": "office",
+            "title": "办公装机",
+            "description": "截图、PDF、效率"
+        }
+    ],
+    "slides": [
+        {
+            "title": "AI 工具合集 + 电脑必装工具集",
+            "subtitle": "秋秋帧资源导航页",
+            "description": "工具已经按场景整理好，搜索筛选",
+            "image": "https://ts1.tc.mm.bing.net/th/id/R-C.55f1966b615b41a131db9e993009d61d?rik=XCQ%2bJSCaFKXbZw&riu=http%3a%2f%2fimgs.aixifan.com%2flive%2f1483602004055%2f1483602004055.jpg&ehk=f5jovT%2fWC9O6Xgco6BJ%2ftpaARBfqBYNYQBtVAZUHIg8%3d&risl=&pid=ImgRaw&r=0"
+        },
+        {
+            "title": "新手先看这组效率工具",
+            "subtitle": "快速装机与 AI 入门",
+            "description": "浏览器、截图、PDF、AI 写作、图片设计等高频工具整理成可筛选清单。",
+            "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1400&q=80"
+        }
+    ],
+    "preferences": [
+        {
+            "id": "free",
+            "label": "优先免费 / 免费可用",
+            "field": "price",
+            "keywords": [
+                "免费",
+                "开源"
+            ]
+        },
+        {
+            "id": "domestic",
+            "label": "国内访问更友好",
+            "field": "all",
+            "keywords": [
+                "国内访问友好",
+                "domestic"
+            ]
+        }
+    ]
+}

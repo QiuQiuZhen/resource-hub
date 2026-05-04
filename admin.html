@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>秋秋后台 - 资源管理</title>
+
+    <!-- 浏览器标签页图标 -->
+    <link rel="icon" href="http://47.108.150.116/uploads/icons/6.ico" />
+
+    <link rel="stylesheet" href="./admin.css" />
+  </head>
+  <body>
+    <header class="admin-header">
+      <div class="brand">
+        <img
+          class="brand-logo"
+          src="http://47.108.150.116/uploads/icons/6.ico"
+          alt="后台 Logo"
+        />
+
+        <div>
+          <p>Admin Console</p>
+          <h1>资源管理后台</h1>
+        </div>
+      </div>
+
+      <nav>
+        <a href="./index.php">前台首页</a>
+        <a href="./README.md">使用说明</a>
+        <button class="nav-button" type="button" id="logoutButton">退出登录</button>
+      </nav>
+    </header>
+
+    <main class="admin-shell" id="adminApp">
+      <aside class="sidebar">
+        <section class="access-panel">
+          <p class="panel-kicker">工作区</p>
+          <div class="admin-tabs">
+            <button class="tab-button active" type="button" data-panel="tools">资源管理</button>
+            <button class="tab-button" type="button" data-panel="settings">站点设置</button>
+          </div>
+        </section>
+
+        <section class="stats-panel">
+          <div>
+            <strong id="toolCount">0</strong>
+            <span>工具</span>
+          </div>
+          <div>
+            <strong id="aiCount">0</strong>
+            <span id="aiCountLabel">AI</span>
+          </div>
+          <div>
+            <strong id="computerCount">0</strong>
+            <span id="computerCountLabel">电脑</span>
+          </div>
+        </section>
+
+        <section class="list-panel">
+          <div class="list-heading">
+            <h2>工具列表</h2>
+            <button class="text-button" type="button" id="newToolButton">新建</button>
+          </div>
+          <input id="toolSearch" class="search-input" type="search" placeholder="搜索工具名称或分类" />
+          <div class="tool-list" id="toolList"></div>
+        </section>
+      </aside>
+
+      <section class="editor-panel admin-panel active" id="toolsPanel">
+        <div class="editor-title">
+          <div>
+            <p id="editorMode">新建工具</p>
+            <h2 id="editorTitle">填写资源信息</h2>
+          </div>
+          <div class="status-pill" id="statusText">等待操作</div>
+        </div>
+
+        <form id="toolForm" class="tool-form">
+          <input type="hidden" name="id" />
+
+          <div class="form-grid">
+            <label>
+              <span>工具名称</span>
+              <input name="name" type="text" placeholder="例如 ChatGPT" required />
+            </label>
+
+            <label>
+              <span>资源类型</span>
+              <select name="type"></select>
+            </label>
+
+            <label>
+              <span>分类</span>
+              <input name="category" type="text" placeholder="例如 对话写作" list="categoryOptions" required />
+              <datalist id="categoryOptions"></datalist>
+            </label>
+
+            <label>
+              <span>官网域名</span>
+              <input name="domain" type="text" placeholder="自动从第一个按钮链接提取，可手动改" />
+            </label>
+          </div>
+
+          <section class="sub-editor">
+            <div class="sub-editor-title">
+              <div>
+                <h3>软件图标</h3>
+                <p>可上传本地图标，前台优先显示上传图标；未上传时使用官网 favicon。</p>
+              </div>
+            </div>
+            <div class="icon-uploader">
+              <div class="icon-preview" id="iconPreview">图标</div>
+              <div class="icon-fields">
+                <input name="iconUrl" type="hidden" />
+                <label>
+                  <span>本地图标文件</span>
+                  <input id="iconFile" type="file" accept="image/png,image/jpeg,image/webp,image/gif" />
+                </label>
+                <div class="inline-actions">
+                  <button class="secondary-button" type="button" id="uploadIconButton">上传图标</button>
+                  <button class="danger-button" type="button" id="clearIconButton">清除图标</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <label>
+            <span>一句话介绍</span>
+            <textarea name="description" rows="3" placeholder="这个工具解决什么问题，适合谁用"></textarea>
+          </label>
+
+          <label>
+            <span>详细介绍</span>
+            <textarea name="longDescription" rows="6" placeholder="更完整地介绍工具用途、亮点、适合人群、使用建议。前台详情弹窗会显示这里的内容。"></textarea>
+          </label>
+
+          <div class="form-grid">
+            <label>
+              <span>适合场景</span>
+              <input name="bestFor" type="text" placeholder="例如 新媒体写作、学习辅助" />
+            </label>
+
+            <label>
+              <span>价格说明</span>
+              <input name="price" type="text" placeholder="例如 免费可用 / 付费升级" />
+            </label>
+
+            <label>
+              <span>访问情况</span>
+              <input name="access" type="text" placeholder="例如 国内访问友好" />
+            </label>
+
+            <label>
+              <span>推荐展示</span>
+              <span class="checkbox-line">
+                <input name="featured" type="checkbox" />
+                <span>在推荐优先排序中靠前</span>
+              </span>
+            </label>
+          </div>
+
+          <section class="sub-editor">
+            <div class="sub-editor-title">
+              <div>
+                <h3>按钮列表</h3>
+                <p>可同时显示官网、下载地址、教程等多个按钮。</p>
+              </div>
+              <button class="secondary-button" type="button" id="addButtonButton">添加按钮</button>
+            </div>
+            <div class="repeat-list" id="buttonList"></div>
+          </section>
+
+          <section class="sub-editor">
+            <div class="sub-editor-title">
+              <div>
+                <h3>所属分组</h3>
+                <p>选择这个资源要加入哪些首页快捷分组，分组名称和显示开关可在站点设置中管理。</p>
+              </div>
+            </div>
+            <div class="check-list" id="toolGroupList"></div>
+          </section>
+
+          <div class="form-grid two">
+            <label>
+              <span>支持平台</span>
+              <textarea name="platforms" rows="4" placeholder="Web&#10;Windows&#10;macOS"></textarea>
+            </label>
+
+            <label>
+              <span>标签</span>
+              <textarea name="tags" rows="4" placeholder="starter&#10;creator&#10;domestic"></textarea>
+            </label>
+          </div>
+
+          <div class="form-actions">
+            <button class="primary-button" type="submit">保存工具</button>
+            <button class="secondary-button" type="button" id="resetButton">清空新建</button>
+            <button class="danger-button" type="button" id="deleteButton" disabled>删除工具</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="editor-panel admin-panel" id="settingsPanel">
+        <div class="editor-title">
+          <div>
+            <p>站点配置</p>
+            <h2>网站、轮播和筛选设置</h2>
+          </div>
+          <div class="status-pill" id="settingsStatus">等待操作</div>
+        </div>
+
+        <form id="settingsForm" class="tool-form">
+          <div class="form-grid">
+            <label>
+              <span>网站名称</span>
+              <input name="siteName" type="text" placeholder="例如 秋秋帧" required />
+            </label>
+
+            <label>
+              <span>网站副标题</span>
+              <input name="siteSubtitle" type="text" placeholder="例如 Resource Hub" />
+            </label>
+
+            <label>
+              <span>文字 Logo</span>
+              <input name="logoText" type="text" placeholder="未设置图片 Logo 时显示" />
+            </label>
+
+            <label>
+              <span>网站 Logo 图片地址</span>
+              <input name="logoUrl" type="url" placeholder="https://example.com/logo.png" />
+            </label>
+
+            <label>
+              <span>Favicon 图标地址</span>
+              <input name="faviconUrl" type="url" placeholder="https://example.com/favicon.ico" />
+            </label>
+
+            <label>
+              <span>底部版权文案</span>
+              <input name="footerText" type="text" placeholder="© 2026 秋秋帧 Resource Hub" />
+            </label>
+
+            <label>
+              <span>备案号</span>
+              <input name="icpText" type="text" placeholder="例如 川ICP备xxxx号" />
+            </label>
+
+            <label>
+              <span>备案链接</span>
+              <input name="icpUrl" type="url" placeholder="https://beian.miit.gov.cn/" />
+            </label>
+          </div>
+
+          <section class="sub-editor">
+            <div class="sub-editor-title">
+              <div>
+                <h3>首页轮播图</h3>
+                <p>对应前台顶部红框位置，建议使用横向大图。</p>
+              </div>
+              <button class="secondary-button" type="button" id="addSlideButton">添加轮播</button>
+            </div>
+            <div class="repeat-list" id="slideList"></div>
+          </section>
+
+          <section class="sub-editor">
+            <div class="sub-editor-title">
+              <div>
+                <h3>大分类</h3>
+                <p>对应前台「资源类型」筛选，也会同步到工具编辑表单。</p>
+              </div>
+              <button class="secondary-button" type="button" id="addResourceTypeButton">添加大分类</button>
+            </div>
+            <div class="repeat-list" id="resourceTypeList"></div>
+          </section>
+
+          <section class="sub-editor">
+            <div class="sub-editor-title">
+              <div>
+                <h3>首页分组</h3>
+                <p>对应前台资源列表上方的分组卡片，可自定义字段，也可以关闭整个分组模块。</p>
+              </div>
+              <button class="secondary-button" type="button" id="addGroupButton">添加分组</button>
+            </div>
+            <label class="checkbox-line">
+              <input name="groupsEnabled" type="checkbox" />
+              <span>前台显示分组模块</span>
+            </label>
+            <div class="repeat-list" id="groupList"></div>
+          </section>
+
+          <section class="sub-editor">
+            <div class="sub-editor-title">
+              <div>
+                <h3>偏好筛选</h3>
+                <p>显示在前台左侧「偏好」区域，可按价格、访问情况、标签等关键词匹配。</p>
+              </div>
+              <button class="secondary-button" type="button" id="addPreferenceButton">添加偏好</button>
+            </div>
+            <div class="repeat-list" id="preferenceList"></div>
+          </section>
+
+          <div class="form-actions">
+            <button class="primary-button" type="submit">保存站点设置</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="./admin.js"></script>
+  </body>
+</html>

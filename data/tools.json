@@ -1,0 +1,1201 @@
+[
+    {
+        "id": "chatgpt",
+        "name": "ChatGPT",
+        "type": "ai",
+        "category": "对话写作",
+        "description": "通用 AI 助手，适合写作、头脑风暴、翻译、代码解释和日常问答。",
+        "bestFor": "个人效率、新媒体选题、学习辅助",
+        "price": "免费可用 / 付费升级",
+        "platforms": [
+            "Web",
+            "iOS",
+            "Android",
+            "桌面端"
+        ],
+        "access": "需确认网络环境",
+        "url": "https://chatgpt.com/",
+        "domain": "chatgpt.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "creator",
+            "writing",
+            "coding"
+        ],
+        "featured": true,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://chatgpt.com/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "通用 AI 助手，适合写作、头脑风暴、翻译、代码解释和日常问答。\n适合场景：个人效率、新媒体选题、学习辅助\n访问情况：需确认网络环境",
+        "groupIds": [
+            "starter",
+            "creator"
+        ]
+    },
+    {
+        "id": "deepseek",
+        "name": "DeepSeek",
+        "type": "ai",
+        "category": "对话写作",
+        "description": "中文体验友好的 AI 助手，适合问答、写作、代码和长文本处理。",
+        "bestFor": "中文写作、学习问答、代码辅助",
+        "price": "免费可用",
+        "platforms": [
+            "Web",
+            "App"
+        ],
+        "access": "国内访问友好",
+        "url": "https://chat.deepseek.com/",
+        "domain": "deepseek.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "domestic",
+            "writing",
+            "coding"
+        ],
+        "featured": true,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://chat.deepseek.com/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "中文体验友好的 AI 助手，适合问答、写作、代码和长文本处理。\n适合场景：中文写作、学习问答、代码辅助\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter"
+        ]
+    },
+    {
+        "id": "kimi",
+        "name": "Kimi",
+        "type": "ai",
+        "category": "对话写作",
+        "description": "适合中文长文档阅读、资料总结、写作润色和信息整理。",
+        "bestFor": "长文档、论文资料、公众号写作",
+        "price": "免费可用 / 付费升级",
+        "platforms": [
+            "Web",
+            "App"
+        ],
+        "access": "国内访问友好",
+        "url": "https://kimi.moonshot.cn/",
+        "domain": "kimi.moonshot.cn",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "domestic",
+            "writing",
+            "office"
+        ],
+        "featured": true,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://kimi.moonshot.cn/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "适合中文长文档阅读、资料总结、写作润色和信息整理。\n适合场景：长文档、论文资料、公众号写作\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter",
+            "office"
+        ]
+    },
+    {
+        "id": "tongyi",
+        "name": "通义千问",
+        "type": "ai",
+        "category": "对话写作",
+        "description": "阿里云推出的通用大模型助手，覆盖写作、办公、学习和多模态能力。",
+        "bestFor": "中文办公、学习、文案生成",
+        "price": "免费可用 / 付费升级",
+        "platforms": [
+            "Web",
+            "App"
+        ],
+        "access": "国内访问友好",
+        "url": "https://tongyi.aliyun.com/",
+        "domain": "tongyi.aliyun.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "domestic",
+            "writing"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://tongyi.aliyun.com/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "阿里云推出的通用大模型助手，覆盖写作、办公、学习和多模态能力。\n适合场景：中文办公、学习、文案生成\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter"
+        ]
+    },
+    {
+        "id": "doubao",
+        "name": "豆包",
+        "type": "ai",
+        "category": "对话写作",
+        "description": "面向大众用户的 AI 助手，适合日常问答、写作、图片理解和办公场景。",
+        "bestFor": "日常问答、内容生成、移动端使用",
+        "price": "免费可用",
+        "platforms": [
+            "Web",
+            "App",
+            "桌面端"
+        ],
+        "access": "国内访问友好",
+        "url": "https://www.doubao.com/",
+        "domain": "doubao.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "domestic",
+            "writing"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.doubao.com/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "面向大众用户的 AI 助手，适合日常问答、写作、图片理解和办公场景。\n适合场景：日常问答、内容生成、移动端使用\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter"
+        ]
+    },
+    {
+        "id": "claude",
+        "name": "Claude",
+        "type": "ai",
+        "category": "对话写作",
+        "description": "擅长长文本阅读、复杂写作、代码理解和结构化分析的 AI 助手。",
+        "bestFor": "长文本、英文写作、代码审阅",
+        "price": "免费可用 / 付费升级",
+        "platforms": [
+            "Web",
+            "App"
+        ],
+        "access": "需确认网络环境",
+        "url": "https://claude.ai/",
+        "domain": "claude.ai",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "writing",
+            "coding",
+            "office"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://claude.ai/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "擅长长文本阅读、复杂写作、代码理解和结构化分析的 AI 助手。\n适合场景：长文本、英文写作、代码审阅\n访问情况：需确认网络环境",
+        "groupIds": [
+            "office"
+        ]
+    },
+    {
+        "id": "perplexity",
+        "name": "Perplexity",
+        "type": "ai",
+        "category": "搜索研究",
+        "description": "带引用来源的 AI 搜索工具，适合快速调研、资料核查和竞品信息整理。",
+        "bestFor": "资料检索、选题研究、英文信息源",
+        "price": "免费可用 / 付费升级",
+        "platforms": [
+            "Web",
+            "App"
+        ],
+        "access": "需确认网络环境",
+        "url": "https://www.perplexity.ai/",
+        "domain": "perplexity.ai",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "research",
+            "office"
+        ],
+        "featured": true,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.perplexity.ai/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "带引用来源的 AI 搜索工具，适合快速调研、资料核查和竞品信息整理。\n适合场景：资料检索、选题研究、英文信息源\n访问情况：需确认网络环境",
+        "groupIds": [
+            "starter",
+            "office"
+        ]
+    },
+    {
+        "id": "notion-ai",
+        "name": "Notion AI",
+        "type": "ai",
+        "category": "办公协作",
+        "description": "集成在 Notion 中的写作、总结、翻译和知识库问答能力。",
+        "bestFor": "团队文档、知识库、项目记录",
+        "price": "付费功能",
+        "platforms": [
+            "Web",
+            "桌面端",
+            "App"
+        ],
+        "access": "需确认网络环境",
+        "url": "https://www.notion.so/product/ai",
+        "domain": "notion.so",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "office",
+            "writing"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.notion.so/product/ai"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "集成在 Notion 中的写作、总结、翻译和知识库问答能力。\n适合场景：团队文档、知识库、项目记录\n访问情况：需确认网络环境",
+        "groupIds": [
+            "office"
+        ]
+    },
+    {
+        "id": "canva",
+        "name": "Canva",
+        "type": "ai",
+        "category": "图片设计",
+        "description": "在线设计平台，适合海报、封面、PPT、社媒图和轻量 AI 设计。",
+        "longDescription": "在线设计平台，适合海报、封面、PPT、社媒图和轻量 AI 设计。\n适合场景：公众号封面、小红书图、PPT 视觉\n访问情况：国内访问需确认",
+        "bestFor": "公众号封面、小红书图、PPT 视觉",
+        "price": "免费可用 / 付费升级",
+        "platforms": [
+            "Web",
+            "App"
+        ],
+        "access": "国内访问需确认",
+        "url": "https://www.canva.com/",
+        "domain": "canva.com",
+        "iconUrl": "./uploads/icons/icon-20260505040452-b117e71c.png",
+        "buttonLabel": "打开官网",
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.canva.com/"
+            }
+        ],
+        "groupIds": [
+            "starter",
+            "creator"
+        ],
+        "tags": [
+            "starter",
+            "creator",
+            "design"
+        ],
+        "featured": true
+    },
+    {
+        "id": "remove-bg",
+        "name": "remove.bg",
+        "type": "ai",
+        "category": "图片设计",
+        "description": "一键去除图片背景，适合商品图、头像和封面素材处理。",
+        "bestFor": "抠图、封面素材、商品图",
+        "price": "免费可用 / 付费高清",
+        "platforms": [
+            "Web"
+        ],
+        "access": "需确认网络环境",
+        "url": "https://www.remove.bg/",
+        "domain": "remove.bg",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "creator",
+            "design"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.remove.bg/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "一键去除图片背景，适合商品图、头像和封面素材处理。\n适合场景：抠图、封面素材、商品图\n访问情况：需确认网络环境",
+        "groupIds": [
+            "starter",
+            "creator"
+        ]
+    },
+    {
+        "id": "midjourney",
+        "name": "Midjourney",
+        "type": "ai",
+        "category": "图片设计",
+        "description": "高质量 AI 绘图工具，适合概念图、视觉风格探索和创意素材生成。",
+        "bestFor": "商业视觉、创意探索、概念设计",
+        "price": "付费订阅",
+        "platforms": [
+            "Web",
+            "Discord"
+        ],
+        "access": "需确认网络环境",
+        "url": "https://www.midjourney.com/",
+        "domain": "midjourney.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "creator",
+            "design"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.midjourney.com/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "高质量 AI 绘图工具，适合概念图、视觉风格探索和创意素材生成。\n适合场景：商业视觉、创意探索、概念设计\n访问情况：需确认网络环境",
+        "groupIds": [
+            "creator"
+        ]
+    },
+    {
+        "id": "jimeng",
+        "name": "即梦 AI",
+        "type": "ai",
+        "category": "图片设计",
+        "description": "面向中文用户的 AI 图片和视频创作工具，适合短视频素材和视觉创意。",
+        "longDescription": "面向中文用户的 AI 图片和视频创作工具，适合短视频素材和视觉创意。\n适合场景：图片生成、视频创意、中文提示词\n访问情况：国内访问友好",
+        "bestFor": "图片生成、视频创意、中文提示词",
+        "price": "免费可用 / 付费升级",
+        "platforms": [
+            "Web",
+            "App"
+        ],
+        "access": "国内访问友好",
+        "url": "https://jimeng.jianying.com/",
+        "domain": "jimeng.jianying.com",
+        "iconUrl": "",
+        "buttonLabel": "打开官网",
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://jimeng.jianying.com/"
+            }
+        ],
+        "groupIds": [
+            "offic"
+        ],
+        "tags": [
+            "creator",
+            "domestic",
+            "design",
+            "video"
+        ],
+        "featured": true
+    },
+    {
+        "id": "jianying",
+        "name": "剪映",
+        "type": "ai",
+        "category": "视频音频",
+        "description": "视频剪辑工具，适合短视频剪辑、字幕识别、模板制作和内容分发。",
+        "bestFor": "短视频、口播、字幕、模板",
+        "price": "免费可用 / 付费素材",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "iOS",
+            "Android",
+            "Web"
+        ],
+        "access": "国内访问友好",
+        "url": "https://www.capcut.cn/",
+        "domain": "capcut.cn",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "creator",
+            "domestic",
+            "video"
+        ],
+        "featured": true,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.capcut.cn/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "视频剪辑工具，适合短视频剪辑、字幕识别、模板制作和内容分发。\n适合场景：短视频、口播、字幕、模板\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter",
+            "creator"
+        ]
+    },
+    {
+        "id": "runway",
+        "name": "Runway",
+        "type": "ai",
+        "category": "视频音频",
+        "description": "AI 视频生成和编辑平台，适合创意短片、镜头生成和视觉实验。",
+        "bestFor": "AI 视频、创意广告、动态素材",
+        "price": "免费试用 / 付费升级",
+        "platforms": [
+            "Web",
+            "App"
+        ],
+        "access": "需确认网络环境",
+        "url": "https://runwayml.com/",
+        "domain": "runwayml.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "creator",
+            "video"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://runwayml.com/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "AI 视频生成和编辑平台，适合创意短片、镜头生成和视觉实验。\n适合场景：AI 视频、创意广告、动态素材\n访问情况：需确认网络环境",
+        "groupIds": [
+            "creator"
+        ]
+    },
+    {
+        "id": "elevenlabs",
+        "name": "ElevenLabs",
+        "type": "ai",
+        "category": "视频音频",
+        "description": "AI 语音生成与配音工具，适合旁白、播客和多语言音频制作。",
+        "bestFor": "AI 配音、英文旁白、音频内容",
+        "price": "免费可用 / 付费升级",
+        "platforms": [
+            "Web"
+        ],
+        "access": "需确认网络环境",
+        "url": "https://elevenlabs.io/",
+        "domain": "elevenlabs.io",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "creator",
+            "audio"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://elevenlabs.io/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "AI 语音生成与配音工具，适合旁白、播客和多语言音频制作。\n适合场景：AI 配音、英文旁白、音频内容\n访问情况：需确认网络环境",
+        "groupIds": [
+            "creator"
+        ]
+    },
+    {
+        "id": "cursor",
+        "name": "Cursor",
+        "type": "ai",
+        "category": "编程开发",
+        "description": "AI 代码编辑器，适合项目理解、代码生成、重构和问答式开发。",
+        "bestFor": "开发者、独立产品、自动化脚本",
+        "price": "免费可用 / 付费升级",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "access": "需确认网络环境",
+        "url": "https://cursor.com/",
+        "domain": "cursor.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "coding",
+            "developer"
+        ],
+        "featured": true,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://cursor.com/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "AI 代码编辑器，适合项目理解、代码生成、重构和问答式开发。\n适合场景：开发者、独立产品、自动化脚本\n访问情况：需确认网络环境",
+        "groupIds": []
+    },
+    {
+        "id": "github-copilot",
+        "name": "GitHub Copilot",
+        "type": "ai",
+        "category": "编程开发",
+        "description": "集成在编辑器中的 AI 编程助手，适合补全、解释、测试和代码生成。",
+        "bestFor": "专业开发、IDE 编码、测试生成",
+        "price": "付费订阅 / 部分人群免费",
+        "platforms": [
+            "VS Code",
+            "JetBrains",
+            "Visual Studio"
+        ],
+        "access": "需确认网络环境",
+        "url": "https://github.com/features/copilot",
+        "domain": "github.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "coding",
+            "developer"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://github.com/features/copilot"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "集成在编辑器中的 AI 编程助手，适合补全、解释、测试和代码生成。\n适合场景：专业开发、IDE 编码、测试生成\n访问情况：需确认网络环境",
+        "groupIds": []
+    },
+    {
+        "id": "vscode",
+        "name": "Visual Studio Code",
+        "type": "computer",
+        "category": "开发工具",
+        "description": "轻量代码编辑器，插件生态完整，适合前端、脚本、数据和文档编辑。",
+        "longDescription": "轻量代码编辑器，插件生态完整，适合前端、脚本、数据和文档编辑。\n适合场景：开发学习、脚本编辑、Markdown\n访问情况：国内访问友好",
+        "bestFor": "开发学习、脚本编辑、Markdown",
+        "price": "免费",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "access": "国内访问友好",
+        "url": "https://code.visualstudio.com/",
+        "domain": "code.visualstudio.com",
+        "iconUrl": "",
+        "buttonLabel": "打开官网",
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://code.visualstudio.com/"
+            },
+            {
+                "label": "直链下载",
+                "url": "https://code.visualstudio.cm/"
+            },
+            {
+                "label": "网盘下载（夸克）",
+                "url": "https://code.visualstudio.co/"
+            }
+        ],
+        "groupIds": [
+            "starter"
+        ],
+        "tags": [
+            "starter",
+            "developer",
+            "free",
+            "domestic"
+        ],
+        "featured": true
+    },
+    {
+        "id": "powertoys",
+        "name": "Microsoft PowerToys",
+        "type": "computer",
+        "category": "系统效率",
+        "description": "Windows 官方效率工具箱，包含窗口布局、批量重命名、取色器和快速启动。",
+        "bestFor": "Windows 装机、效率增强",
+        "price": "免费",
+        "platforms": [
+            "Windows"
+        ],
+        "access": "国内访问友好",
+        "url": "https://learn.microsoft.com/windows/powertoys/",
+        "domain": "learn.microsoft.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "office",
+            "free",
+            "domestic"
+        ],
+        "featured": true,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://learn.microsoft.com/windows/powertoys/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "Windows 官方效率工具箱，包含窗口布局、批量重命名、取色器和快速启动。\n适合场景：Windows 装机、效率增强\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter",
+            "office"
+        ]
+    },
+    {
+        "id": "everything",
+        "name": "Everything",
+        "type": "computer",
+        "category": "系统效率",
+        "description": "Windows 文件名搜索神器，索引快，适合快速找到本地文件。",
+        "bestFor": "文件搜索、办公资料定位",
+        "price": "免费",
+        "platforms": [
+            "Windows"
+        ],
+        "access": "国内访问友好",
+        "url": "https://www.voidtools.com/",
+        "domain": "voidtools.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "office",
+            "free",
+            "domestic"
+        ],
+        "featured": true,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.voidtools.com/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "Windows 文件名搜索神器，索引快，适合快速找到本地文件。\n适合场景：文件搜索、办公资料定位\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter",
+            "office"
+        ]
+    },
+    {
+        "id": "utools",
+        "name": "uTools",
+        "type": "computer",
+        "category": "系统效率",
+        "description": "插件化效率启动器，适合搜索、翻译、剪贴板、快捷工作流和小工具集合。",
+        "bestFor": "快捷启动、插件效率、办公工具",
+        "price": "免费可用 / 付费升级",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "access": "国内访问友好",
+        "url": "https://www.u-tools.cn/",
+        "domain": "u-tools.cn",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "office",
+            "domestic"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.u-tools.cn/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "插件化效率启动器，适合搜索、翻译、剪贴板、快捷工作流和小工具集合。\n适合场景：快捷启动、插件效率、办公工具\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter",
+            "office"
+        ]
+    },
+    {
+        "id": "snipaste",
+        "name": "Snipaste",
+        "type": "computer",
+        "category": "截图录屏",
+        "description": "截图、贴图和标注工具，轻量稳定，适合办公、教程和产品反馈。",
+        "bestFor": "截图标注、贴图参考、教程制作",
+        "price": "免费可用 / 专业版",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "access": "国内访问友好",
+        "url": "https://www.snipaste.com/",
+        "domain": "snipaste.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "office",
+            "free",
+            "domestic"
+        ],
+        "featured": true,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.snipaste.com/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "截图、贴图和标注工具，轻量稳定，适合办公、教程和产品反馈。\n适合场景：截图标注、贴图参考、教程制作\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter",
+            "office"
+        ]
+    },
+    {
+        "id": "obs",
+        "name": "OBS Studio",
+        "type": "computer",
+        "category": "截图录屏",
+        "description": "开源录屏和直播软件，适合课程录制、屏幕演示和直播推流。",
+        "bestFor": "录屏、直播、课程制作",
+        "price": "免费开源",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "access": "国内访问友好",
+        "url": "https://obsproject.com/",
+        "domain": "obsproject.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "creator",
+            "office",
+            "free",
+            "video"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://obsproject.com/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "开源录屏和直播软件，适合课程录制、屏幕演示和直播推流。\n适合场景：录屏、直播、课程制作\n访问情况：国内访问友好",
+        "groupIds": [
+            "creator",
+            "office"
+        ]
+    },
+    {
+        "id": "sharex",
+        "name": "ShareX",
+        "type": "computer",
+        "category": "截图录屏",
+        "description": "开源截图与录屏工具，支持自动上传、OCR、标注和多种工作流。",
+        "bestFor": "高级截图、自动化、技术文档",
+        "price": "免费开源",
+        "platforms": [
+            "Windows"
+        ],
+        "access": "国内访问友好",
+        "url": "https://getsharex.com/",
+        "domain": "getsharex.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "office",
+            "free",
+            "developer",
+            "domestic"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://getsharex.com/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "开源截图与录屏工具，支持自动上传、OCR、标注和多种工作流。\n适合场景：高级截图、自动化、技术文档\n访问情况：国内访问友好",
+        "groupIds": [
+            "office"
+        ]
+    },
+    {
+        "id": "chrome",
+        "name": "Google Chrome",
+        "type": "computer",
+        "category": "浏览下载",
+        "description": "主流浏览器，插件生态丰富，适合作为跨平台工作浏览器。",
+        "bestFor": "网页应用、插件生态、跨端同步",
+        "price": "免费",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux",
+            "iOS",
+            "Android"
+        ],
+        "access": "需确认网络环境",
+        "url": "https://www.google.com/chrome/",
+        "domain": "google.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "free"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.google.com/chrome/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "主流浏览器，插件生态丰富，适合作为跨平台工作浏览器。\n适合场景：网页应用、插件生态、跨端同步\n访问情况：需确认网络环境",
+        "groupIds": [
+            "starter"
+        ]
+    },
+    {
+        "id": "edge",
+        "name": "Microsoft Edge",
+        "type": "computer",
+        "category": "浏览下载",
+        "description": "Windows 默认浏览器，兼容 Chromium 插件，适合办公和网页阅读。",
+        "bestFor": "Windows 办公、PDF 阅读、网页应用",
+        "price": "免费",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux",
+            "iOS",
+            "Android"
+        ],
+        "access": "国内访问友好",
+        "url": "https://www.microsoft.com/edge",
+        "domain": "microsoft.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "office",
+            "free",
+            "domestic"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.microsoft.com/edge"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "Windows 默认浏览器，兼容 Chromium 插件，适合办公和网页阅读。\n适合场景：Windows 办公、PDF 阅读、网页应用\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter",
+            "office"
+        ]
+    },
+    {
+        "id": "motrix",
+        "name": "Motrix",
+        "type": "computer",
+        "category": "浏览下载",
+        "description": "跨平台下载工具，支持 HTTP、FTP、BT、磁力链接等常见下载任务。",
+        "bestFor": "文件下载、跨平台下载管理",
+        "price": "免费开源",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "access": "国内访问友好",
+        "url": "https://motrix.app/",
+        "domain": "motrix.app",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "free",
+            "domestic"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://motrix.app/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "跨平台下载工具，支持 HTTP、FTP、BT、磁力链接等常见下载任务。\n适合场景：文件下载、跨平台下载管理\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter"
+        ]
+    },
+    {
+        "id": "7zip",
+        "name": "7-Zip",
+        "type": "computer",
+        "category": "压缩安全",
+        "description": "经典开源压缩工具，支持 7z、zip、rar 等常见格式解压。",
+        "bestFor": "压缩解压、装机基础工具",
+        "price": "免费开源",
+        "platforms": [
+            "Windows"
+        ],
+        "access": "国内访问友好",
+        "url": "https://www.7-zip.org/",
+        "domain": "7-zip.org",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "free",
+            "domestic"
+        ],
+        "featured": true,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.7-zip.org/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "经典开源压缩工具，支持 7z、zip、rar 等常见格式解压。\n适合场景：压缩解压、装机基础工具\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter"
+        ]
+    },
+    {
+        "id": "bandizip",
+        "name": "Bandizip",
+        "type": "computer",
+        "category": "压缩安全",
+        "description": "界面友好的压缩解压工具，适合日常文件打包和常见格式处理。",
+        "bestFor": "日常压缩、批量文件处理",
+        "price": "免费可用 / 专业版",
+        "platforms": [
+            "Windows",
+            "macOS"
+        ],
+        "access": "国内访问友好",
+        "url": "https://www.bandisoft.com/bandizip/",
+        "domain": "bandisoft.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "domestic"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.bandisoft.com/bandizip/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "界面友好的压缩解压工具，适合日常文件打包和常见格式处理。\n适合场景：日常压缩、批量文件处理\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter"
+        ]
+    },
+    {
+        "id": "pdfgear",
+        "name": "PDFgear",
+        "type": "computer",
+        "category": "文档 PDF",
+        "description": "PDF 阅读、编辑、转换和注释工具，适合日常办公文档处理。",
+        "bestFor": "PDF 编辑、格式转换、文档批注",
+        "price": "免费可用",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "iOS"
+        ],
+        "access": "国内访问友好",
+        "url": "https://www.pdfgear.com/",
+        "domain": "pdfgear.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "office",
+            "free",
+            "domestic"
+        ],
+        "featured": true,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.pdfgear.com/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "PDF 阅读、编辑、转换和注释工具，适合日常办公文档处理。\n适合场景：PDF 编辑、格式转换、文档批注\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter",
+            "office"
+        ]
+    },
+    {
+        "id": "wps",
+        "name": "WPS Office",
+        "type": "computer",
+        "category": "文档 PDF",
+        "description": "国产办公套件，覆盖文字、表格、演示、PDF 和模板资源。",
+        "bestFor": "日常办公、学生作业、文档协作",
+        "price": "免费可用 / 会员功能",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux",
+            "iOS",
+            "Android"
+        ],
+        "access": "国内访问友好",
+        "url": "https://www.wps.cn/",
+        "domain": "wps.cn",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "office",
+            "domestic"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://www.wps.cn/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "国产办公套件，覆盖文字、表格、演示、PDF 和模板资源。\n适合场景：日常办公、学生作业、文档协作\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter",
+            "office"
+        ]
+    },
+    {
+        "id": "localsend",
+        "name": "LocalSend",
+        "type": "computer",
+        "category": "文件传输",
+        "description": "局域网文件传输工具，跨平台、开源，适合手机和电脑互传文件。",
+        "bestFor": "跨设备传文件、局域网协作",
+        "price": "免费开源",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux",
+            "iOS",
+            "Android"
+        ],
+        "access": "国内访问友好",
+        "url": "https://localsend.org/",
+        "domain": "localsend.org",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "starter",
+            "office",
+            "free",
+            "domestic"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://localsend.org/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "局域网文件传输工具，跨平台、开源，适合手机和电脑互传文件。\n适合场景：跨设备传文件、局域网协作\n访问情况：国内访问友好",
+        "groupIds": [
+            "starter",
+            "office"
+        ]
+    },
+    {
+        "id": "git",
+        "name": "Git",
+        "type": "computer",
+        "category": "开发工具",
+        "description": "版本控制工具，是代码管理、协作开发和部署流程的基础组件。",
+        "bestFor": "代码管理、协作开发、部署",
+        "price": "免费开源",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "access": "国内访问友好",
+        "url": "https://git-scm.com/",
+        "domain": "git-scm.com",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "developer",
+            "free",
+            "domestic"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://git-scm.com/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "版本控制工具，是代码管理、协作开发和部署流程的基础组件。\n适合场景：代码管理、协作开发、部署\n访问情况：国内访问友好",
+        "groupIds": []
+    },
+    {
+        "id": "nodejs",
+        "name": "Node.js",
+        "type": "computer",
+        "category": "开发工具",
+        "description": "JavaScript 运行时，适合前端工程、脚本、自动化和服务端开发。",
+        "bestFor": "前端开发、工具链、自动化脚本",
+        "price": "免费开源",
+        "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "access": "国内访问友好",
+        "url": "https://nodejs.org/",
+        "domain": "nodejs.org",
+        "buttonLabel": "打开官网",
+        "tags": [
+            "developer",
+            "free",
+            "domestic"
+        ],
+        "featured": false,
+        "buttons": [
+            {
+                "label": "打开官网",
+                "url": "https://nodejs.org/"
+            }
+        ],
+        "iconUrl": "",
+        "longDescription": "JavaScript 运行时，适合前端工程、脚本、自动化和服务端开发。\n适合场景：前端开发、工具链、自动化脚本\n访问情况：国内访问友好",
+        "groupIds": []
+    }
+]
